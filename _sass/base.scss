@@ -1,0 +1,29 @@
+body {
+    background-color: #1c1338;
+    font-family: sans-serif;
+    margin: auto;
+    max-width: 70ch;
+    color: #bfb3ff;
+    margin-top: 10ch;
+}
+body::before{
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 60%;
+    top: 138px;
+    filter: blur(90px);
+    background-color: #6465c7;
+    z-index: -2;
+}
+body::after{
+    content: "";
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    left: 30%;
+    top: 550px;
+    background-color: #356b83;
+    filter: blur(80px);
+}
