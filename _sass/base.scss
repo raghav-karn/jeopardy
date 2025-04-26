@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coral+Pixels&display=swap");
+
 body {
     background-color: #1c1338;
-    font-family: sans-serif;
+    font-family: 'major mono display';
+    font-size: 1.1rem;
     margin: auto;
     max-width: 70ch;
-    color: #bfb3ff;
+    color: #bcb0fd;
     margin-top: 10ch;
 }
 body::before{
@@ -11,19 +16,19 @@ body::before{
     position: absolute;
     width: 400px;
     height: 400px;
-    left: 60%;
-    top: 138px;
+    left: 10%;
+    top: 10%;
     filter: blur(90px);
-    background-color: #6465c7;
+    background-color: #605ed3;
     z-index: -2;
 }
 body::after{
     content: "";
     position: absolute;
-    width: 123px;
-    height: 123px;
-    left: 30%;
-    top: 550px;
-    background-color: #356b83;
-    filter: blur(80px);
+    width: 400px;
+    height: 400px;
+    left: 60%;
+    top: 50%;
+    background-color: #6688f8;
+    filter: blur(90px);
 }
