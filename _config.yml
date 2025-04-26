@@ -1,5 +1,5 @@
-title: tonic-starter
-description: ""
+title: Jeopardy
+description: "Sleek and sharp, might jeopardize your glance!"
 encoding: utf-8
 
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
