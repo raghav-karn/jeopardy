@@ -1,5 +1,6 @@
 ---
 title: Home | Jeopardy
+layout: default
 ---
 
 # Jeopardy
